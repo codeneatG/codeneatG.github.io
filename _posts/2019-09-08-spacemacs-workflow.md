@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "My Spacemacs Workflow"
-subtitle: 'From Vim to Spacemacs'
+title: "八股文之"
+subtitle: '操作系统'
 author: "Hux"
 header-style: text
 tags:
@@ -18,35 +18,76 @@ Though the overall experience is pretty smooth, many quirks about Spacemacs are 
 Yes this is more like a note publishing online for the purpose of "on-demand accessible". So don't expect good writing anyways.
 
 
-### Vim-binding
+### 系统概述
 
-Choose `evil`!
+#### 概念和特点
 
+<video id="video" controls="" preload="none" poster="http://om2bks7xs.bkt.clouddn.com/2017-08-26-Markdown-Advance-Video.jpg">
+<source id="mp4" src="../media/02.概念和特点.mp4" type="video/mp4">
+</video>
 
-### Airline
+#### 功能
 
-It's there!
-
-
-### Nerd Tree / File Sidebar
-
-`SPC f t` for _file tree_. The keybindings for specific operations are very different w/ Vim NerdTree though.
+#### 剩余内容
 
 
-### Shell / Terminal
+### 进程管理
 
-I occasionally use [Neovim's terminal emulator](https://neovim.io/doc/user/nvim_terminal_emulator.html) but in most of the time I just `cmd + D` for iTerms splitted window. 
+#### 进程的引入
 
-I even mappped `:D` into split-then-terminal to make the experience on par ;)
+#### 进程的控制
 
-```vim
-command! -nargs=* D  belowright split | terminal <args>
-```
+#### 线程
 
-Anyways, Spacemacs does provide a `:shell` that naturally split a window below for terminal. The experience is not very good though.
+#### 处理机调度
+
+#### 同步与互斥1
+
+#### 同步与互斥2
+
+#### 同步与互斥3
+
+#### 同步与互斥4
+
+### 内存管理
+
+#### 连续分配管理方式1
+
+#### 连续分配管理方式2
+
+#### 非连续分配管理方式1
+
+#### 非连续分配管理方式2
+
+#### 虚拟内存管理1
+
+#### 虚拟内存管理2
 
 
-### Tabs / Workspaces
+### 文件管理
+
+#### 文件管理基础
+
+#### 文件逻辑结构
+
+#### 目录管理
+
+#### 外存分配
+
+#### 文件存储空间
+
+
+### IO输入/输出管理
+
+#### IO管理概述1
+
+#### IO管理概述2
+
+#### IO核心子系统1
+
+#### IO核心子系统2
+
+#### IO核心子系统3
 
 I tend to open multiple _workspace_. Though people might found Vim tabs useful, I am exclusively use iTerm tabs for similar jobs. However Spacemacs is not living in a terminal.
 
